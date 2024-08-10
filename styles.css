@@ -1,0 +1,137 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(219, 189, 208);
+}
+
+/*Register form style*/
+.register_form {
+    border: 3px solid white;
+    border-radius: 25px;
+    background: #a19198;
+    background-size: cover;
+    background-position: down;
+    padding: 30px;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .register_form h1 {
+    color: #000000;
+    text-align: center;
+  }
+  
+  .register_form label, p {
+    color: white;
+    text-align:left;
+  }
+  
+  input[type=text], input[type=number], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #eeffd4;
+    box-sizing: border-box;
+  }
+
+.login-container {
+    border: 3px solid white;
+    border-radius: 25px;
+    background: url("_logBg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.marks-container {
+    max-width:  500px;
+    margin: auto;
+    padding: 30px;
+    border: 3px solid white;
+    border-radius: 25px;
+    background-color: #6d285a;
+    justify-content: center;
+    align-items: center;
+}
+
+.results-container {
+    color: #fff8f8;
+    max-width:  500px;
+    margin: auto;
+    padding: 30px;
+    border: 3px solid white;
+    border-radius: 25px;
+    background-color: #9c317e;
+    justify-content: center;
+    align-items: center;
+}
+
+nav, a {
+    font-family:Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ad4493;
+    border-radius: 5px;
+
+    float: center;
+    display: inline;
+
+    display: block;
+    color: #fff8f8;
+    text-decoration: none;
+    text-align: center;
+    padding: 1px 1px;
+}
+
+a:hover {
+    background-color:#6d285a;
+} 
+
+
+h2, p {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff8f8;
+    margin-bottom: 30px
+}
+
+ul li {
+    list-style-type: none;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    color: #fff8f8;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+button {
+    width: 40%;
+    padding: 10px;
+    background-color: #fff8f8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #ad4493;
+}
