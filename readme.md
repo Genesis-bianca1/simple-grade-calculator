@@ -38,10 +38,11 @@ award (PK), total_credits, course_code(FK).
 
 
 Functions of the system:
-1. Login
-2. Redirect to enter grades table page
-3. Enter grades of students' registered modules
+1. Secure and encrypted Login
+2. Redirection to the 'Enter Marks' table page
+3. Enter the appropriate marks of students' registered modules
 4. Upon pressing 'Calculate' button:
        Mark is translated into grades
        Award based on degree criteria is revealed
 5. Results above are displayed on a new page as a 'Results' table.
+6. Log out and delete session's data
