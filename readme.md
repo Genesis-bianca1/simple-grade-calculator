@@ -13,7 +13,7 @@ To understand the login, open files in the following order:
 
 
 
-The 'grading_system' database schema:
+The 'grading_system' database schema in 3NF:
 
 Table ‘Student’:
 student_id (PK), forename, surname,  passcode, repeated_passcode, course_code (FK).
@@ -35,3 +35,13 @@ student_id (FK), award (FK), classification.
 
 Table ‘Award’:
 award (PK), total_credits, course_code(FK).
+
+
+Functions of the system:
+1. Login
+2. Redirect to enter grades table page
+3. Enter grades of students' registered modules
+4. Upon pressing 'Calculate' button:
+       Mark is translated into grades
+       Award based on degree criteria is revealed
+5. Results above are displayed on a new page as a 'Results' table.
