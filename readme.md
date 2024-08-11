@@ -41,8 +41,9 @@ Functions of the system:
 1. Secure and encrypted Login
 2. Redirection to the 'Enter Marks' table page
 3. Enter the appropriate marks of students' registered modules
-   Upon pressing 'Calculate' button
+
+Upon pressing 'Calculate' button
 4. Mark is translated into grades
 5. Award based on degree criteria is revealed
-5. Results above are displayed on a new page as a 'Results' table.
-6. Log out and delete session's data
+6. Results above are displayed on a new page as a 'Results' table.
+7. Log out and delete session's data
